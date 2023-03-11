@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans&display=swap');
+.flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+body{
+    margin: 0 5px;
+
+    font-family: 'PT Sans', sans-serif;
+    background: linear-gradient(#C2BBF2, #9177F2 ) ;
+    font-size: large;    
+}
+
+.ajusteApresentacao{
+    flex-direction: column;
+}
+
+.intro li:before {
+	content: "🟊";
+}
+
+h2{
+    margin: 0 0 5px 0;
+}
